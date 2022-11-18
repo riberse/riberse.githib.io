@@ -1,0 +1,48 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
+
+h1 {
+    text-decoration: none;
+    color: #143ed6;
+}
+
+a:hover {
+    color: #1571da;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 520px;
+    padding: 32px;
+    line-height: 1.6em;
+}
+
+.avatar {
+    border-radius: 30%;
+    width: 150px;
+}
+
+.icons {
+    list-style-type: none;
+    font-size: xx-large;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 320px;
+    margin: 1em auto;
+}
+
+.icons li a a:hover{
+    display: inline;
+    width: 42px;
+    color: black;
+}
