@@ -1,2 +1,2 @@
-# riberse.githib.io
+# riberse.github.io
 Personal Page
